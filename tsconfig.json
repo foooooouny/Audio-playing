@@ -1,0 +1,14 @@
+{
+  "include": ["./**/*.ts"],
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es2017",
+    "module": "commonjs",
+    "strictNullChecks": false,
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  }
+}
